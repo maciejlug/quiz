@@ -163,7 +163,7 @@ function score(){
   document.getElementById("question").style.display="none";
   document.getElementById("answers").style.display="none";
   let span = document.createElement("span");
-  span.innerHTML = `score: ${points}`;
+  span.innerHTML = `score: ${points}/10`;
   document.getElementById("questContainer").appendChild(span);
   document.getElementById('questContainer').classList.add("questContainerScore");
 
